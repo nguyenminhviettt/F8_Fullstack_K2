@@ -1,0 +1,15 @@
+form div{
+    margin-top: 10px;
+}
+label{
+    display: inline-block;
+    vertical-align: top;
+    width:110px;
+}
+.choose-role{
+    display: inline-block;
+}
+.choose-sign-on{
+    display: inline-block;
+}
+

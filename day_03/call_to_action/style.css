@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+header,main,.btn{
+    display: block;
+    text-align: center;
+}
+    header>p{
+        font-size: 30px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 60px;
+        background-color: blue;
+    }
+
+button{
+    display: inline-block;
+    width: fit-content;
+    padding: 0 20px;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px
+}

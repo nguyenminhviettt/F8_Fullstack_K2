@@ -1,0 +1,51 @@
+html{
+    
+}
+body{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+hr{
+    width: 70px;
+    height: 3px;
+    background-color: yellow;
+    border: none;
+    margin-left: 0px;
+}
+h2{
+    margin-bottom:40px ;
+}
+aside{
+    display: inline-block;
+    width: 30%;
+}
+main{
+    display:inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+.contact-info{
+    color: rgb(156, 156, 156);
+}
+
+p {
+    display: inline-block;
+    margin-left: 10px;
+}
+input{
+    width: 50vw;
+    height:40px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 50vw;
+    margin-bottom: 20px;
+}
+button{
+    display: block;
+    width: 200px;
+    height: 42px;
+    color: white;
+    background-color: rgb(0, 183, 186);
+    border:none;
+}
