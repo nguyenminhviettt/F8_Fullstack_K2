@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <title>Vikinger</title>
+    </head>
+    <body>
+        <main>
+            <section class="landing">
+                <div class="container">
+                    <input
+                        type="checkbox"
+                        id="register"
+                        class="landing__input-register"
+                    />
+                    <div class="landing__info">
+                        <div class="landing__info__logo">
+                            <img src="./assets/img/logo.svg" alt="" />
+                        </div>
+                        <h2 class="landing__info__heading--lv2 heading lv2">
+                            WELCOME TO
+                        </h2>
+                        <h1 class="landing__info__heading--lv1 heading lv1">
+                            VIKINGER
+                        </h1>
+                        <p class="landing__info__desc__lap">
+                            The next generation social network & community!
+                            Connect with your friends and play with our quests
+                            and badges gamification system!
+                        </p>
+                        <div class="landing__tab-switch">
+                            <div class="landing__tab-switch__login active">
+                                <label for="register">Log in</label>
+                            </div>
+
+                            <div class="landing__tab-switch__register">
+                                <label for="register">Register </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="landing__action">
+                        <form class="landing__login">
+                            <h3 class="heading lv3">Account Login</h3>
+                            <label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder"
+                                    >Username or Email</span
+                                >
+
+                            </label>
+
+                            <label>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder">Password</span>
+
+                            </label>
+                            <div class="landing__login__help">
+                                <div class="landing__login__help__remember">
+                                    <input type="checkbox" id="icon-box" />
+                                    <div class="landing__login__remember__box">
+                                        <label for="icon-box"
+                                            ><i
+                                                class="fa-sharp fa-solid fa-xmark icon-exit"
+                                            ></i
+                                        ></label>
+                                    </div>
+                                    <div
+                                        class="landing__login__remember__desc"
+                                        style="color: #3e3f5e"
+                                    >
+                                        Remember Me
+                                    </div>
+                                </div>
+                                <p
+                                    class="landing__login__help__offer"
+                                    style="cursor: pointer"
+                                >
+                                    Forgot Password?
+                                </p>
+                            </div>
+                            <button class="landing__login__btn btn">
+                                Login to your Account
+                            </button>
+
+                            <div class="landing__login__seperate">
+                                <p class="landing__login__other">
+                                    Login with your Social Account
+                                </p>
+                            </div>
+                            <div class="landing__login__group-icon">
+                                <a href="#!" class="landing__login__icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#!" class="landing__login__icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+
+                                <a href="#!" class="landing__login__icon">
+                                    <i class="fa-brands fa-twitch"></i>
+                                </a>
+
+                                <a href="#!" class="landing__login__icon">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                        </form>
+
+                        <form class="landing__register">
+                            <h3 class="heading lv3">Create your Account!</h3>
+                            <label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder">Email</span>
+
+                            </label>
+
+                            <label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder">Name</span>
+
+                            </label>
+
+                            <label>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder">Password</span>
+
+                            </label>
+
+                            <label>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    placeholder=" "
+                                    required
+                                />
+                                <span class="placeholder">Repeat Password</span>
+
+                            </label>
+                            <div class="landing__register__help">
+                                <div class="landing__register__help__remember">
+                                    <input
+                                        type="checkbox"
+                                        id="icon-register-box"
+                                    />
+                                    <div
+                                        class="landing__register__remember__box"
+                                    >
+                                        <label for="icon-register-box"
+                                            ><i
+                                                class="fa-sharp fa-solid fa-xmark icon-exit"
+                                            ></i
+                                        ></label>
+                                    </div>
+                                    <div
+                                        class="landing__register__remember__desc"
+                                        style="color: #3e3f5e"
+                                    >
+                                        Send me news and updates via email
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="landing__register__btn btn">
+                                Register Now!
+                            </button>
+
+                            <p class="landing__register__text">
+                                You'll receive a confirmation email in your
+                                inbox with a link to activate your account. If
+                                you have any problems,
+                                <a href="#" class="contact">contact us</a>!
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
